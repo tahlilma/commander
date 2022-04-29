@@ -14,9 +14,9 @@ client.on("ready", () => {
   client.user.setActivity(`Use ${process.env.PREFIX}help`);
 });
 
-client.on('messageCreate', (message) => {
+client.on("messageCreate", (message) => {
   if (message.author.id === client.user.id) return;
   commandHandler(message);
-})
+});
 
 client.login(process.env.TOKEN);
