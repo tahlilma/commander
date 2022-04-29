@@ -1,3 +1,5 @@
+(I updated the command handler to use Discord JS 13. But it does not add anything new so like you wont get a slash command handler. Im too lazy to update the docs so i wont.)
+
 # Commander
 Commander is a command handler / mini framework designed to make working with Discord.JS 12 easier. Keep in mind the version of Discord.JS that this command handler uses is deprecated and this command handler might just stop working randomly out of the blue.
 
