@@ -6,7 +6,7 @@ const genericError = (message) => {
     'Something Went Wrong',
     'Something went horribly wrong, ping dev so that he/she can check the logs and find out what it is.'
   );
-  message.channel.send(someRandomErr);
+  message.channel.send({ embeds: [someRandomErr] });
 }
 
 module.exports = genericError;

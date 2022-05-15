@@ -1,4 +1,4 @@
-**I updated the command handler to use Discord JS 13. But it does not add anything new so like you wont get a slash command handler. Im too lazy to update the docs so i wont.**
+**I updated the command handler to use Discord JS 13. But it does not add anything new so like you wont get a slash command handler. (PS: The docs are still based in Discord JS 12 since im too lazy to update it.)**
 
 ---
 
