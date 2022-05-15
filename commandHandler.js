@@ -18,12 +18,14 @@ const commandHandler = (message) => {
     if (!commandIndex[command]) {
       const altIndex = metaGenerator({ type: "alt" });
       if (!altIndex[command]) {
-        message.channel.send(
-          new ErrorEmbed(
-            "Command Not Found",
-            "I don't think I have that command chief."
-          )
-        );
+        message.channel.send({
+          embeds: [
+            new ErrorEmbed(
+              "Command Not Found",
+              "I don't think I have that command chief."
+            ),
+          ],
+        });
         return;
       } else {
         altIndex[command].handler(message);

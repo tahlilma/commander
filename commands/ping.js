@@ -1,7 +1,8 @@
 module.exports = {
   name: "ping",
-  alt: "p", 
-  handler: (message) => { 
-    message.channel.send("pong");
+  alt: "p",
+  description: "Replies with pong.",
+  handler: (message) => {
+    message.reply("pong");
   },
 };
