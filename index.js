@@ -7,6 +7,7 @@ const commandHandler = require("./commandHandler");
 
 const client = new Discord.Client({
   intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES],
+  //real
 });
 
 client.on("ready", () => {
